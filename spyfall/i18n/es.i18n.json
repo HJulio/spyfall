@@ -40,7 +40,7 @@
                 "segurata": "Segurata",
                 "yonki": "Yonki cotidiano",
                 "tipo leyendo": "Tipo leyendo",
-                "estudiante": "Estudiante",
+                "estudiante": "Estudiante"
             },
             "twinpi": {
                 "camarera guapa": "La camarera guapa",
@@ -57,7 +57,7 @@
                 "gente de cumple": "Alguien de cumple",
                 "duenyo enrollao": "El dueño enrollao"
             },
-            "la fi": {
+            "fi": {
                 "profesor de ssoo": "Profesor de SS.OO.",
                 "estudiante repetidor": "Estudiante (repetidor)",
                 "tuno": "Alguien de la tuna",
@@ -93,13 +93,12 @@
                 "tai": "Tai"
             },
             "debod": {
-                "bartender": "Barman",
-                "head security guard": "Jefe de Seguridad",
-                "bouncer": "Guardia de Seguridad",
-                "manager": "Gerente",
-                "hustler": "Estafador",
-                "dealer": "Croupier",
-                "gambler": "Jugador"
+                "sevi desnudo": "Sevi sin pantalones",
+                "leginoario": "El legionario borracho",
+                "runner": "Runner",
+                "la pasma": "¡Aiba! La pasma",
+                "alguien bebiendo": "Alguien de botellón",
+                "chino": "Chino latero"
             }
         }
     }
