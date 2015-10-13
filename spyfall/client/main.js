@@ -18,7 +18,7 @@ function getUserLanguage() {
   if (language){
     return language;
   } else {
-    return "en";
+    return "es";
   }
 };
 
@@ -44,7 +44,7 @@ function getLanguageList() {
   var languages = TAPi18n.getLanguages();
   var languageList = _.map(languages, function(value, key) {
     var selected = "";
-    
+
     if (key == getUserLanguage()){
       selected = "selected";
     }
@@ -61,11 +61,11 @@ function getLanguageList() {
       languageDetails: value
     };
   });
-  
+
   if (languageList.length <= 1){
     return null;
   }
-  
+
   return languageList;
 }
 
@@ -208,7 +208,7 @@ function trackGameState () {
   }
 }
 
-function leaveGame () {  
+function leaveGame () {
   GAnalytics.event("game-actions", "gameleave");
   var player = getCurrentPlayer();
 
@@ -237,7 +237,7 @@ if (hasHistoryApi()){
     } else {
       accessCode = Session.get('urlAccessCode');
     }
-    
+
     var currentURL = '/';
     if (accessCode){
       currentURL += accessCode+'/';
@@ -319,7 +319,7 @@ Template.createGame.events({
     Meteor.subscribe('games', game.accessCode);
 
     Session.set("loading", true);
-    
+
     Meteor.subscribe('players', game._id, function onReady(){
       Session.set("loading", false);
 
@@ -465,7 +465,7 @@ Template.lobby.events({
     });
 
     assignRoles(players, location);
-    
+
     Games.update(game._id, {$set: {state: 'inProgress', location: location, endTime: gameEndTime, paused: false, pausedTime: null}});
   },
   'click .btn-toggle-qrcode': function () {
@@ -512,7 +512,7 @@ Template.gameView.helpers({
   player: getCurrentPlayer,
   players: function () {
     var game = getCurrentGame();
-    
+
     if (!game){
       return null;
     }

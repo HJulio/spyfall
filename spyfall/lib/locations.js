@@ -16,7 +16,8 @@ locations = [
       'locations.roles.twinpi.pizza',
       'locations.roles.twinpi.uno de nyos',
       'locations.roles.twinpi.cocinero',
-      'locations.roles.twinpi.javipo'
+      'locations.roles.twinpi.javipo',
+      'locations.roles.twinpi.cubo'
     ]
   },
   {
@@ -72,7 +73,9 @@ locations = [
       'locations.roles.troika.borracho',
       'locations.roles.troika.adolescente porrero',
       'locations.roles.troika.agumon',
+      'locations.roles.troika.amigo aru',
       'locations.roles.troika.tai'
+
     ]
   },
   {
@@ -82,6 +85,7 @@ locations = [
       'locations.roles.debod.legionario',
       'locations.roles.debod.runner',
       'locations.roles.debod.la pasma',
+      'locations.roles.debod.chino',
       'locations.roles.debod.alguien bebiendo'
     ]
   }
